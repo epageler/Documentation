@@ -120,19 +120,19 @@ Data for financial calculations are entered using the green keys on the left sid
    - PMT specifies the payment per period.
    - FV specified the Future Value of a loan or investment.
   
-  A financial calculation can be performed by entering data for any four of the five values above. The calculator can then solve for the fifth value.
+A financial calculation can be performed by entering data for any four of the five values above. The calculator can then solve for the fifth value.
   
-  The sign of the value for PV, PMT, and FV is important. If receiving money, the sign should be positive since this is a positive cash flow. If paying money, the sign should be negative since this is a negative cash flow.
+The sign of the value for PV, PMT, and FV is important. If receiving money, the sign should be positive since this is a positive cash flow. If paying money, the sign should be negative since this is a negative cash flow.
   
-  A value can be entered into a financial register by clicking its green key. A value can be retrieved from a financial register by pressing the RCL key followed by its green key.
+A value can be entered into a financial register by clicking its green key. A value can be retrieved from a financial register by pressing the RCL key followed by its green key.
   
-  The BEG/END key specifies whether cash flows occur at the Beginning or the End of each period. (For most calculations, you should specify "End".) 
+The BEG/END key specifies whether cash flows occur at the Beginning or the End of each period. (For most calculations, you should specify "End".) 
   
-  ---
+---
     
-  ## Financial Calculation Examples
+## Financial Calculation Examples
   
-  ### Example 1: Calculating the Payment on a Loan
+### Example 1: Calculating the Payment on a Loan
   Suppose you get an auto loan for $40,000 at 5.50% per year with a term of 5 years. What would be the monthly payment?
   
   Steps to solve:
