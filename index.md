@@ -2,4 +2,3 @@
 
 [RPN Financial Calculator Documentation](./RPN_Financial_Calculator/RPN-Financial-Calculator-Documentation.md)
 
-Some content!!
