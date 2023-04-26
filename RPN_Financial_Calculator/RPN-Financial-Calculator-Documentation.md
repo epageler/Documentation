@@ -53,7 +53,7 @@ Some of the main features of the RPN Financial Calculator:
 8.  Ability to Copy/Paste the top of the stack to/from the clipboard to interact with other Windows applications.
     - See Copy/Paste in the Edit menu item
 
-9.  Right-click to change the display to/from floating decimal point to a specified number of decimal digits.
+9.  Right-click to change the display to floating decimal point or to a specified number of decimal digits.
 
 ## Performing Calculations
 For those of you who don't anything about RPN, here is a link to an article that explains its background and development. Read more: [Museum of HP Calculators](https://www.hpmuseum.org/rpn.htm).
@@ -96,7 +96,7 @@ The elements in the stack are known as x, y, z, and t. The last entry made into 
 
 When a binary operation (e.g. addition, subtraction, multiplication, division) is performed, it is done with the last two entries, x and y. So, for example, when division is performed the result will be y divided by x. If a number is raised to a power, it will be y to the x power. The result of a calculation is placed back on the stack in the x position, with z moving into the y register and t moving into the z register.
 
-When a unary operation is performed it uses only the x register, which is the last entry made. So, for example, 1/x takes the reciprocal of the x register and replaces the previous value of the x register the result.
+When a unary operation is performed it uses only the x register, which is the last entry made. So, for example, 1/x takes the reciprocal of the x register and replaces the previous value of the x register with the result.
 
 The CLx, x⇄y, and R ↓ keys are used to manipulate the stack. The CLx key clears the value in the x register, the x⇄y swaps the values in the x and y registers, and the R ↓ key rotates the values in all four of the registers. The swap key can be especially useful if you got the entries to be used in a binary operation in the opposite order.
 
@@ -174,7 +174,7 @@ Suppose you invest $250 per month into an investment account that you expect to 
 (I assume that you have learned the keystroke sequence from Example 1, so I won't include detailed keystroke information in this example.)
 
 Steps to solve:
-1. Enter -10000 into **PV**, since this is initial amount that you paid into the account at the outset. (You can use the +/- key to change the sign of 10000 to become -10000.)
+1. Enter -10000 into **PV**, since this is the initial amount that you paid into the account at the outset. (You can use the +/- key to change the sign of 10000 to become -10000.)
 2. Enter 0.75 into **i**, since this is the monthly expected growth rate (9% per year divided by 12 months per year).
 3. Enter -250 into **PMT**, since this is the monthly amount you plan to invest into the account. This amount is a negative cash flow since you will be paying it into the account.
 4. Enter 240 into **n**, since this is the number of months you plan to invest (20 years times 12 months per year).
