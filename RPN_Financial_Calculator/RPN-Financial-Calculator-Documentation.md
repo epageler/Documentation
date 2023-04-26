@@ -129,7 +129,7 @@ A value can be entered into a financial register by clicking its green key. A va
 The BEG/END key specifies whether cash flows occur at the Beginning or the End of each period. (For most calculations, you should specify "End".) 
   
 ---
-    
+
 ## Financial Calculation Examples
   
 ### Example 1: Calculating the Payment on a Loan
