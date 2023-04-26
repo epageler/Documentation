@@ -1,4 +1,4 @@
-[Back to Documentation Home Page](/index.md)
+[Back to Documentation Home Page](../index.md)
 
 # RPN Financial Calculator Documentation
 
@@ -56,7 +56,7 @@ Some of the main features of the RPN Financial Calculator:
 9.  Right-click to change the display to/from floating decimal point to a specified number of decimal digits.
 
 ## Performing Calculations
-For those of you who don't anything about RPN, here is a link to an article that explains its background and development. (see link: [Museum of HP Calculators](https://www.hpmuseum.org/rpn.htm)).
+For those of you who don't anything about RPN, here is a link to an article that explains its background and development. Read more: [Museum of HP Calculators](https://www.hpmuseum.org/rpn.htm).
 
 RPN stands for Reverse Prefix Notation or Reverse Polish Notation. RPN was made mainstream by Hewlett-Packard (HP) when they implemented it in their handheld calculators.
 
