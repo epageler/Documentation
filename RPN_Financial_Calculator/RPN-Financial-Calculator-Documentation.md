@@ -213,3 +213,6 @@ The application has two modules:
 2. Calculator.py: This module contains a single class called Calculator that implements the internal data and functionality of the calculator. The update method is invoked each time an event is received in the main event loop. The update method returns two values:
    - The value of what should be shown on the calculator display.
    - An error message if one has occurred.
+
+
+[def]: /index.md
