@@ -1,4 +1,4 @@
-[Back to Documentation Home Page](/index.md)
+[Back to Documentation Home Page](index.md)
 
 # RPN Financial Calculator Documentation
 
