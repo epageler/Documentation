@@ -133,38 +133,53 @@ The BEG/END key specifies whether cash flows occur at the Beginning or the End o
 ## Financial Calculation Examples
   
 ### Example 1: Calculating the Payment on a Loan
-  Suppose you get an auto loan for $40,000 at 5.50% per year with a term of 5 years. What would be the monthly payment?
+Suppose you get an auto loan for $40,000 at 5.50% per year with a term of 5 years. What would be the monthly payment?
+
+Steps to solve:
   
-  Steps to solve:
-  1. Enter the term of the loan into the **n** financial register. This is done with the following keystrokes:
+- Step 1-- Enter the term of the loan into the **n** financial register. This is done with the following keystrokes:
+  
 > 3 E 12 x n
 >
 > (Note: E indicates the Enter key.)
     
-    Explanation of the keystrokes above:
-       -   3 is the number of years for the loan.
-       -   E (abbreviation for the Enter key) The Enter key completes the entry of the number of years.
-       -   12 is the number of months per year.
-       -   x multiplies 3 by 12, resulting in 36, which is the number of months for the loan.
-       -   n enters the value 36 into the n financial register for the number of periods in the loan
-  2. Enter the interest rate per period for the loan into the **i** financial register. This is done with the following keystrokes:
+Explanation of the keystrokes above:
+   
+   -- 3 is the number of years for the loan.
+   
+   -- E (abbreviation for the Enter key) The Enter key completes the entry of the number of years.
+   
+   -- 12 is the number of months per year.
+   
+   -- x multiplies 3 by 12, resulting in 36, which is the number of months for the loan.
+   
+   -- n enters the value 36 into the n financial register for the number of periods in the loan
+
+- Step 2-- Enter the interest rate per period for the loan into the **i** financial register. This is done with the following keystrokes:
 > 5.5 E 12 / i
 >
 > (Note: E represents the Enter key.)
  
-    Explanation of the keystrokes above:
-       -   5.5 is the annual rate for the loan.
-       -   E (abbreviation for the Enter key) The Enter key completes the entry of the annual loan rate.
-       -   12 is the number of months per year.
-       -   / divides 5.5 by 12, resulting in 0.458333333, which is the rate per month for the loan
-       -   i enters the value into the i financial register for the interest rate per month for the loan.
-  3. Enter the amount of the loan into **PV** financial register. This is done with the following keystrokes:
+Explanation of the keystrokes above:
+   --   5.5 is the annual rate for the loan.
+   
+   --   E (abbreviation for the Enter key) The Enter key completes the entry of the annual loan rate.
+   
+   --   12 is the number of months per year.
+   
+   --   / divides 5.5 by 12, resulting in 0.458333333, which is the rate per month for the loan
+   
+   --   i enters the value into the i financial register for the interest rate per month for the loan
+   
+- Step 3-- Enter the amount of the loan into **PV** financial register. This is done with the following keystrokes:
 > 40000 PV
    
    Note that the sign of PV is positive since this is a positive cash flow to you. (You received $40,000 from the bank.)
-  4. Enter 0 into the **FV** financial register, since the future value of the loan will be $0 at the end of the term since it is fully paid. This is done with the following keystrokes:
+   
+- Step 4-- Enter 0 into the **FV** financial register, since the future value of the loan will be $0 at the end of the term since it is fully paid. This is done with the following keystrokes:
 > 0 FV
-  5. Solve for **PMT**. This is done by clicking the PMT button. The display will show the monthly payment for the loan. In this case, the payment would be -764.05 per month. Note that the sign is negative since this is a negative cash flow (you are paying money to the bank for the loan). 
+
+- Step 5-- Solve for **PMT**. This is done by clicking the PMT button. The display will show the monthly payment for the loan. In this case, the payment would be -764.05 per month. Note that the sign is negative since this is a negative cash flow (you are paying money to the bank for the loan). 
 
 ---   
    
@@ -173,46 +188,30 @@ Suppose you invest $250 per month into an investment account that you expect to 
 
 (I assume that you have learned the keystroke sequence from Example 1, so I won't include detailed keystroke information in this example.)
 
-Steps to solve:
-1. Enter -10000 into **PV**, since this is the initial amount that you paid into the account at the outset. (You can use the +/- key to change the sign of 10000 to become -10000.)
-2. Enter 0.75 into **i**, since this is the monthly expected growth rate (9% per year divided by 12 months per year).
-3. Enter -250 into **PMT**, since this is the monthly amount you plan to invest into the account. This amount is a negative cash flow since you will be paying it into the account.
-4. Enter 240 into **n**, since this is the number of months you plan to invest (20 years times 12 months per year).
-5. Solve for **FV**. The expected future value of the account is $227,063.23. This is a positive number, since if you closed the account, you would receive these funds, which is a positive cash flow.
+Steps to solve: 
+
+- Step 1-- Enter -10000 into **PV**, since this is the initial amount that you paid into the account at the outset. (You can use the +/- key to change the sign of 10000 to become -10000.) 
+
+- Step 2-- Enter 0.75 into **i**, since this is the monthly expected growth rate (9% per year divided by 12 months per year). 
+
+- Step 3-- Enter -250 into **PMT** since this is the monthly amount you plan to invest into the account. This amount is a negative cash flow since you will be paying it into the account. 
+
+- Step 4--  Enter 240 into **n**, since this is the number of months you plan to invest (20 years times 12 months per year).
+
+- Step 5-- Solve for **FV**. The expected future value of the account is $227,063.23. This is a positive number, since if you closed the account, you would receive these funds, which is a positive cash flow.
 
 ---
 
 ### Example 3: Length of Time to Amortize a Loan
 Suppose you have a $10,000 credit card balance on a card with a 22.0% annual rate. How long would it take to pay off the balance if you paid $250 per month, assuming you made no new purchases on the card?
 Steps to solve:
-1. Enter 10000 into **PV**, since you have received $10,000 from the credit card company.
-2. Divide 22 by 12, resulting in 1.83333333, and enter this into **i**. 1.8333333 is the interest rate per month (22% per year divided by 12 months per year).
-3. Enter 0 into **FV**, since the card balance will be completely paid.
-4. Enter -250 into **PMT**, since you expect to pay $250 per month.
-5. Solve for **n**. The result is 72.75, which is the number of months required to pay off the balance on the card. 
 
----
+- Step 1-- Enter 10000 into **PV**, since you have received $10,000 from the credit card company.
 
+- Step 2-- Divide 22 by 12, resulting in 1.83333333, and enter this into **i**. 1.8333333 is the interest rate per month (22% per year divided by 12 months per year).
 
-## Overview of the Software Design of the RPN Financial Calculator Application 
+- Step 3-- Enter 0 into **FV**, since the card balance will be completely paid.
 
-The RPN Financial calculator is implemented entirely in Python. It takes advantage of the following Python packages:
-- PySimpleGUI (see link: [PySimpleGUI](https://www.pysimplegui.org))
-- decimal (see link: [decimal](https://docs.python.org/3/library/decimal.html))
-- numpy-financial (see link: [numpy-financial](https://numpy.org/numpy-financial/latest/index.html))
+- Step 4-- Enter -250 into **PMT**, since you expect to pay $250 per month.
 
-The application has two modules:
-1. RPNcalc.py: This is the main module. It implements the entire graphical user interface (GUI) using the PySimpleGUI library. It takes advantage of many of the PySimpleGUI elements, including:
-   - Text
-   - Button
-   - Popup
-   - Menu
-   - Column
-   - Right-click menu
-   - Tabs
-2. Calculator.py: This module contains a single class called Calculator that implements the internal data and functionality of the calculator. The update method is invoked each time an event is received in the main event loop. The update method returns two values:
-   - The value of what should be shown on the calculator display.
-   - An error message if one has occurred.
-
-
-[def]: /index.md
+- Step 5-- Solve for **n**. The result is 72.75, which is the number of months required to pay off the balance on the card. 
