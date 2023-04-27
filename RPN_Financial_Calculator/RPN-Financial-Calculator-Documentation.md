@@ -136,7 +136,8 @@ The BEG/END key specifies whether cash flows occur at the Beginning or the End o
 Suppose you get an auto loan for $40,000 at 5.50% per year with a term of 5 years. What would be the monthly payment?
 
 Steps to solve:
-  
+
+
 - Step 1-- Enter the term of the loan into the **n** financial register. This is done with the following keystrokes:
 
 > 3 E 12 x n
@@ -162,6 +163,7 @@ Explanation of the keystrokes above:
 (Note: E represents the Enter key.)
  
 Explanation of the keystrokes above:
+
    --   5.5 is the annual rate for the loan.
    
    --   E (abbreviation for the Enter key) The Enter key completes the entry of the annual loan rate.
