@@ -144,17 +144,17 @@ Steps to solve:
 >
 > (Note: E indicates the Enter key.)
     
-Explanation of the keystrokes above:
+Explanation of the keystrokes above: 
    
-   -- 3 is the number of years for the loan.
-   
-   -- E (abbreviation for the Enter key) The Enter key completes the entry of the number of years.
-   
-   -- 12 is the number of months per year.
-   
-   -- x multiplies 3 by 12, resulting in 36, which is the number of months for the loan.
-   
-   -- n enters the value 36 into the n financial register for the number of periods in the loan
+-- 3 is the number of years for the loan.
+
+-- E (abbreviation for the Enter key) The Enter key completes the entry of the number of years.
+
+-- 12 is the number of months per year.
+
+-- x multiplies 3 by 12, resulting in 36, which is the number of months for the loan.
+
+-- n enters the value 36 into the n financial register for the number of periods in the loan
 
 - Step 2-- Enter the interest rate per period for the loan into the **i** financial register. This is done with the following keystrokes:
 
@@ -162,17 +162,17 @@ Explanation of the keystrokes above:
 
 (Note: E represents the Enter key.)
  
-Explanation of the keystrokes above:
+Explanation of the keystrokes above: 
 
-   --   5.5 is the annual rate for the loan.
-   
-   --   E (abbreviation for the Enter key) The Enter key completes the entry of the annual loan rate.
-   
-   --   12 is the number of months per year.
-   
-   --   / divides 5.5 by 12, resulting in 0.458333333, which is the rate per month for the loan
-   
-   --   i enters the value into the i financial register for the interest rate per month for the loan
+--   5.5 is the annual rate for the loan.
+
+--   E (abbreviation for the Enter key) The Enter key completes the entry of the annual loan rate.
+
+--   12 is the number of months per year.
+
+--   / divides 5.5 by 12, resulting in 0.458333333, which is the rate per month for the loan
+
+--   i enters the value into the i financial register for the interest rate per month for the loan
    
 - Step 3-- Enter the amount of the loan into **PV** financial register. This is done with the following keystrokes:
 
