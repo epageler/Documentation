@@ -138,7 +138,7 @@ Suppose you get an auto loan for $40,000 at 5.50% per year with a term of 5 year
 Steps to solve:
   
 - Step 1-- Enter the term of the loan into the **n** financial register. This is done with the following keystrokes:
-  
+
 > 3 E 12 x n
 >
 > (Note: E indicates the Enter key.)
@@ -156,9 +156,10 @@ Explanation of the keystrokes above:
    -- n enters the value 36 into the n financial register for the number of periods in the loan
 
 - Step 2-- Enter the interest rate per period for the loan into the **i** financial register. This is done with the following keystrokes:
+
 > 5.5 E 12 / i
->
-> (Note: E represents the Enter key.)
+
+(Note: E represents the Enter key.)
  
 Explanation of the keystrokes above:
    --   5.5 is the annual rate for the loan.
@@ -172,11 +173,13 @@ Explanation of the keystrokes above:
    --   i enters the value into the i financial register for the interest rate per month for the loan
    
 - Step 3-- Enter the amount of the loan into **PV** financial register. This is done with the following keystrokes:
+
 > 40000 PV
    
    Note that the sign of PV is positive since this is a positive cash flow to you. (You received $40,000 from the bank.)
    
 - Step 4-- Enter 0 into the **FV** financial register, since the future value of the loan will be $0 at the end of the term since it is fully paid. This is done with the following keystrokes:
+
 > 0 FV
 
 - Step 5-- Solve for **PMT**. This is done by clicking the PMT button. The display will show the monthly payment for the loan. In this case, the payment would be -764.05 per month. Note that the sign is negative since this is a negative cash flow (you are paying money to the bank for the loan). 
