@@ -140,7 +140,7 @@ Steps to solve:
 
 - Step 1-- Enter the term of the loan into the **n** financial register. This is done with the following keystrokes:
 
-> 3 E 12 x n
+> 5 E 12 x n
 >
 > (Note: E indicates the Enter key.)
     
@@ -152,9 +152,9 @@ Explanation of the keystrokes above:
 
 -- 12 is the number of months per year.
 
--- x multiplies 3 by 12, resulting in 36, which is the number of months for the loan.
+-- x multiplies 3 by 12, resulting in 60, which is the number of months for the loan.
 
--- n enters the value 36 into the n financial register for the number of periods in the loan
+-- n enters the value 60 into the n financial register for the number of periods in the loan
 
 - Step 2-- Enter the interest rate per period for the loan into the **i** financial register. This is done with the following keystrokes:
 
